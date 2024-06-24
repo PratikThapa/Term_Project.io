@@ -5,14 +5,15 @@
     font-size: 24px;
     font-weight: bold;
     line-height: 50px;
-    font-family: 'Arial',sans-serif;
-    color: #333;
+    font-family: 'Roboto Slab',sans-serif;
+    color: #5c4033;
 }
 
 .nav li.hover{
     background-color: rgba(139,180, 181, 0.9);
     color: #fff;
     cursor: pointer;
+    transition: background-color 0.3 ease, color 0.3s ease;
 }
 
 .horizontal {
@@ -28,8 +29,9 @@
     font-size: 50px;
     text-align: center;
     padding: 20px;
+    font-family: "PlayFair Display", serif;
     background-color: rgba(255, 255, 255, 0.8);
-
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);;
 }
 
 .P1{
@@ -39,14 +41,12 @@
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     padding: 20px;
     background-color: rgba(0,0,0,0.6);
+    font-family: 'Cormorant Garamond', serif;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-image: url("../Images/fryingpan.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0,0,0,0.3);
+    background-color: #F5E6D9;
 }
 
 
@@ -61,6 +61,8 @@ body{
     font-size: 32px;
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
 }
 
 .Item{
@@ -71,16 +73,18 @@ body{
 }
 
 .Item img{
-    width: 300px;
-    height: 200px;
-    object-fit: fill;
+    width: 500px;
+    height: 500px;
+    object-fit: auto;
     border-radius: 4px;
     margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .Item h3{
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .Item p {
@@ -91,4 +95,5 @@ body{
     font-size: 20px;
     font-weight: bold;
     color: #8BB4B5;
+    font-family: 'Roboto Slab', serif;
 }
