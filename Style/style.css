@@ -1,0 +1,94 @@
+.nav li {
+    list-style-type: none;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    font-family: 'Arial',sans-serif;
+    color: #333;
+}
+
+.nav li.hover{
+    background-color: rgba(139,180, 181, 0.9);
+    color: #fff;
+    cursor: pointer;
+}
+
+.horizontal {
+    list-style-type: none;
+    background-color: rgba(139, 180, 181, 0.8); 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.P1{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    padding: 20px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../Images/fryingpan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+.Special{
+    padding: 40px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.Special h2{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.Item img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.Item h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Item p {
+    margin-bottom: 10px;
+}
+
+.Item .price{
+    font-size: 20px;
+    font-weight: bold;
+    color: #8BB4B5;
+}
