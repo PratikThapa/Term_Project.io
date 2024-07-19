@@ -1,45 +1,74 @@
-<!---
-Author: Pratik Thapa
-Date: 20th June, 2024
-Student ID: c0932242
-Title: Pillow
---->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = 'stylesheet' href = "Style/style.css">
-    <title>🥘 Kadai House 🍳</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <title>Kadai House</title>
 </head>
 <body>
     <header>
-        <h1 class = "h1">🥘 Kadai house 🍳</h1>
+        <div class="header-content">
+            <h1 class="h1">🥘 Kadai House 🍳</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="Pages/About.html">About Us</a></li>
+                <li><a href="Pages/team.html">Our Team</a></li>
+                <li><a href="Pages/specials.html">Specials</a></li>
+                <li><a href="Pages/training.html">Training</a></li>
+                <li><a href="Pages/media.html">Media</a></li>
+                <li><a href="Pages/faqs.html">FAQs</a></li>
+                <li><a href="Pages/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav class = "nav">
-        <ul class = "horizontal">
-            <li> <a href = "">Home</a></li>
-            <li><a href = "Pages/About.html">About Us</a></li>
-            <li> <a href = "Pages/team.html">Our Team</a></li>
-            <li><a href = "Pages/specials.html">Specials</a></li>
-            <li><a href = "Pages/training.html">Training</a></li>
-            <li><a href = "Pages/media.html">Media</a></li>
-            <li><a href = "Pages/faqs.html">FAQs</a></li>
-            <li><a href = "Pages/contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-    
-    <main class = "Main">
-        <p class = "P1">🥘Welcome to Kadai House🍳: 
-            Where You can get every kind of Frying Pan for every kind occasion.
-        </p>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Kadai House</h2>
+                <p>Discover the perfect frying pan for every culinary adventure.</p>
+                <a href="Pages/specials.html" class="btn">Explore Our Specials</a>
+            </div>
+            <div class="hero-image">
+                <img src="Images/fryingpan.jpg" alt="Kadai House Kitchen">
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-item">
+                <div class="feature-image">
+                    <img src="Images/pan1.jpg" alt="High-Quality Pans">
+                </div>
+                <h3>High-Quality Pans</h3>
+                <p>Our frying pans are made with the finest materials for superior performance.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-image">
+                    <img src="Images/pan2.jpg" alt="Durable Construction">
+                </div>
+                <h3>Durable Construction</h3>
+                <p>Built to last, our pans will be your kitchen's trusted companion for years to come.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-image">
+                    <img src="Images/pan3.jpg" alt="Variety of Options">
+                </div>
+                <h3>Variety of Options</h3>
+                <p>Find the perfect pan for every cooking need, from everyday meals to special occasions.</p>
+            </div>
+        </section>
     </main>
-    
+
     <footer>
-        <p>
-            &copy; 2024 Kadai House. All right reserved.
-        </p>
+        <div class="footer-content">
+            <p>&copy; 2024 Kadai House. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
