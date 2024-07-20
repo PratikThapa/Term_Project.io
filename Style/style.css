@@ -225,6 +225,20 @@ footer {
     margin: 10px 0;
 }
 
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-image img {
+    max-width: 100%;
+    height: auto;
+}
 .about-section, .philosophy-section, .history-section {
     padding: 20px;
 }
@@ -237,6 +251,21 @@ footer {
 }
 .nav ul li a {
     font-size: 14px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-image img {
+    max-width: 100%;
+    height: auto;
 }
 
 .about-section, .philosophy-section, .history-section {
