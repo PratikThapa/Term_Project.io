@@ -1,17 +1,20 @@
-/* Main Content Styles */
-.main-content {
-  max-width: 1200px;
-  margin: 60px auto;
-  padding: 0 30px;
-  animation: fadeIn 1s ease-in-out 1s;
-  animation-fill-mode: both;
+
+/* Table Header Styles */
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  animation: slideInDown 1s ease-in-out;
 }
 
 /* Table Styles */
 table.product-price {
   border-collapse: collapse;
   width: 100%;
+  max-width: 900px;
   background-color: #fff;
+  margin: 0 auto;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
