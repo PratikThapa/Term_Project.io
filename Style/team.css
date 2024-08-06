@@ -1,75 +1,8 @@
-/* General Styles */
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
-}
-
-/* Header Styles */
-header {
-  background-color: #2c3e50;
-  color: #fff;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.header-content {
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 48px;
-  margin: 0;
-  animation: fadeIn 1s ease-in-out;
-}
-
-.nav {
-  margin-top: 20px;
-}
-
-.nav ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  animation: slideIn 1s ease-in-out;
-}
-
-.nav li {
-  margin: 0 15px;
-}
-
-.nav a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.nav a:hover {
-  color: #95a5a6;
-  animation: pulse 0.5s ease-in-out;
-}
-
-/* Main Content Styles */
-.main-content {
-  max-width: 1200px;
-  margin: 60px auto;
-  padding: 0 20px;
-}
-
 main {
   display: flex;
   justify-content: space-between;
   padding: 60px 40px;
-  background-color: #fff;
+  background: linear-gradient(to right, #f2f2f2, #e6e6e6);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
 }
@@ -82,7 +15,7 @@ article {
 section h1,
 section h2 {
   font-family: 'Open Sans', serif;
-  color: #2c3e50;
+  color: #444;
   margin-bottom: 20px;
   animation: fadeIn 1s ease-in-out;
 }
@@ -124,7 +57,7 @@ section p {
 
 aside {
   flex: 1;
-  background-color: #fff;
+  background: linear-gradient(to right, #f2f2f2, #e6e6e6);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 40px;
   animation: fadeIn 1s ease-in-out;
@@ -133,7 +66,7 @@ aside {
 aside h2 {
   font-family: 'Playfair Display', serif;
   font-size: 24px;
-  color: #2c3e50;
+  color: #444;
   margin-bottom: 20px;
   animation: fadeIn 1s ease-in-out;
 }
@@ -147,7 +80,7 @@ aside p {
 
 /* Footer Styles */
 footer {
-  background-color: #2c3e50;
+  background: linear-gradient(to right, #444, #333);
   color: #fff;
   text-align: center;
   padding: 20px 0;

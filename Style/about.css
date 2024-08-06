@@ -1,16 +1,22 @@
 /* About Section */
 .about-section {
     padding: 80px 50px;
-    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #f0f0f0, #d0d0d0);
+    background-color: #f0f0f0;
     opacity: 0;
     transform: translateY(50px);
     animation: fadeInUp 0.8s ease-in-out forwards;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .about-section h2 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #333;
 }
 
 .about-section p {
@@ -18,21 +24,28 @@
     line-height: 1.6;
     margin-bottom: 30px;
     color: #555;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 /* Philosophy Section */
 .philosophy-section {
     padding: 80px 50px;
-    background-color: #ffffff;
+    background: linear-gradient(to bottom, #f0f0f0, #d0d0d0);
+    background-color: #f0f0f0;
     opacity: 0;
     transform: translateY(50px);
     animation: fadeInUp 0.8s ease-in-out 0.2s forwards;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .philosophy-section h2 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #333;
 }
 
 .philosophy-section p {
@@ -40,21 +53,28 @@
     line-height: 1.6;
     margin-bottom: 30px;
     color: #555;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 /* History Section */
 .history-section {
     padding: 80px 50px;
-    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #f0f0f0, #d0d0d0);
+    background-color: #f0f0f0;
     opacity: 0;
     transform: translateY(50px);
     animation: fadeInUp 0.8s ease-in-out 0.4s forwards;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .history-section h2 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #333;
 }
 
 .history-section p {
@@ -62,6 +82,7 @@
     line-height: 1.6;
     margin-bottom: 30px;
     color: #555;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 @keyframes fadeInUp {
