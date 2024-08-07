@@ -1,0 +1,17 @@
+.chef-image {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 150px;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    background-color: transparent;
+}
+
+.chef-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: transparent; 
+}
